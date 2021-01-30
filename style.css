@@ -69,7 +69,7 @@ nav ul li a:hover, a.active{
     color: #3352F2;
     font-size: 30px;
     padding: 2px;
-    margin-top: 10px;
+    margin-top: 25px;
     word-spacing: 20px;
 }
 .booking-form  .calculations{
@@ -120,6 +120,11 @@ nav ul li a:hover, a.active{
     display: flex;
     justify-content: space-between;
 }
-.plus-minus-btn:hover{
+.increaseButton:hover{
     cursor: pointer;
+    background-color:whitesmoke;
+}
+.decreaseButton:hover{
+    cursor: pointer;
+    background-color:whitesmoke;
 }
