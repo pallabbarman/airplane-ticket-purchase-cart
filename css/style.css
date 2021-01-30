@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-    background:url("images/bg.png");
+    background:url("/images/bg.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: scroll;
@@ -69,7 +69,7 @@ nav ul li a:hover, a.active{
     color: #3352F2;
     font-size: 30px;
     padding: 2px;
-    margin-top: 25px;
+    margin-top: 20px;
     word-spacing: 20px;
 }
 .booking-form  .calculations{
@@ -127,4 +127,21 @@ nav ul li a:hover, a.active{
 .decreaseButton:hover{
     cursor: pointer;
     background-color:whitesmoke;
+}
+#receipt-area{
+    display: none;
+}
+.receipt{
+    margin: 60px auto;
+    width: 35%;
+    height: 500px;
+    background-color: whitesmoke;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.receipt-info{
+    padding: 60px;
+}
+h2{
+    text-align: center;
 }

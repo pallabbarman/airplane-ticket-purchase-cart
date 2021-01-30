@@ -38,3 +38,12 @@ function getTicketClassValue(ticketClass) {
     const ticketCount = parseInt(ticketInput.value);
     return ticketCount;
 }
+
+// book now event handler
+document.getElementById("book-now").addEventListener('click', function () {
+    const purchasesArea = document.getElementById("purchase-area");
+    purchasesArea.style.display = "none";
+    const receiptArea = document.getElementById("receipt-area");
+    receiptArea.style.display = "block";
+
+})
